@@ -1,0 +1,29 @@
+
+
+<html>
+<head>
+  <title>Netlify Demo</title>
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+<!--
+<form action = "" method = "get">
+         Enter email : <input type = "email" name = "newinput" />
+         <input type = "submit" value = "Submit" />
+      </form> -->
+<button type ="button" onclick = "randomElement()">Click Me!</button>
+<script>
+
+function randomElement()
+		{
+			var arr = [25, 45, 12, 65, 43];
+			const Element = arr[Math.floor(Math.random() * arr.length)];
+			
+			document.write(Element);
+		}
+</script>
+</body>
+
+</html>
